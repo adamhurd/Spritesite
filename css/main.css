@@ -4,6 +4,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab");
 /* line 9, ../scss/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -702,70 +703,226 @@ textarea {
     page-break-after: avoid;
   }
 }
-/* line 104, icon/*.png */
-.icon-sprite, .icon-skier, .icon-spritecan, .icon-spritelogo, .icon-westfalia {
-  background-image: url('../img/icon-s329ab61a52.png');
+/* line 264, icon/*.png */
+.icon-sprite, .icon-camera, .icon-fb, .icon-github, .icon-insta, .icon-linkedin, .icon-skier, .icon-soob1, .icon-soob2, .icon-soundcloud, .icon-spotify, .icon-spritecan, .icon-spritelogo, .icon-twitter, .icon-westfalia {
+  background-image: url('../img/icon-s78d284ba07.png');
   background-repeat: no-repeat;
 }
 
 /* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-skier {
+.icon-camera {
   background-position: 0 -100px;
 }
 /* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-skier:hover, .icon-skier.skier-hover {
+.icon-camera:hover, .icon-camera.camera-hover {
   background-position: 0 0;
 }
 
 /* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-spritecan {
+.icon-fb {
   background-position: 0 -300px;
 }
 /* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-spritecan:hover, .icon-spritecan.spritecan-hover {
+.icon-fb:hover, .icon-fb.fb-hover {
   background-position: 0 -200px;
 }
 
 /* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-spritelogo {
+.icon-github {
   background-position: 0 -500px;
 }
 /* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-spritelogo:hover, .icon-spritelogo.spritelogo-hover {
+.icon-github:hover, .icon-github.github-hover {
   background-position: 0 -400px;
 }
 
 /* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-westfalia {
+.icon-insta {
   background-position: 0 -700px;
 }
 /* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-westfalia:hover, .icon-westfalia.westfalia-hover {
+.icon-insta:hover, .icon-insta.insta-hover {
   background-position: 0 -600px;
 }
 
-/* line 4, ../scss/_base.scss */
+/* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-linkedin {
+  background-position: 0 -900px;
+}
+/* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-linkedin:hover, .icon-linkedin.linkedin-hover {
+  background-position: 0 -800px;
+}
+
+/* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-skier {
+  background-position: 0 -1100px;
+}
+/* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-skier:hover, .icon-skier.skier-hover {
+  background-position: 0 -1000px;
+}
+
+/* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-soob1 {
+  background-position: 0 -1300px;
+}
+/* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-soob1:hover, .icon-soob1.soob1-hover {
+  background-position: 0 -1200px;
+}
+
+/* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-soob2 {
+  background-position: 0 -1500px;
+}
+/* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-soob2:hover, .icon-soob2.soob2-hover {
+  background-position: 0 -1400px;
+}
+
+/* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-soundcloud {
+  background-position: 0 -1700px;
+}
+/* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-soundcloud:hover, .icon-soundcloud.soundcloud-hover {
+  background-position: 0 -1600px;
+}
+
+/* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-spotify {
+  background-position: 0 -1900px;
+}
+/* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-spotify:hover, .icon-spotify.spotify-hover {
+  background-position: 0 -1800px;
+}
+
+/* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-spritecan {
+  background-position: 0 -2100px;
+}
+/* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-spritecan:hover, .icon-spritecan.spritecan-hover {
+  background-position: 0 -2000px;
+}
+
+/* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-spritelogo {
+  background-position: 0 -2300px;
+}
+/* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-spritelogo:hover, .icon-spritelogo.spritelogo-hover {
+  background-position: 0 -2200px;
+}
+
+/* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-twitter {
+  background-position: 0 -2500px;
+}
+/* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-twitter:hover, .icon-twitter.twitter-hover {
+  background-position: 0 -2400px;
+}
+
+/* line 84, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-westfalia {
+  background-position: 0 -2700px;
+}
+/* line 59, ../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-westfalia:hover, .icon-westfalia.westfalia-hover {
+  background-position: 0 -2600px;
+}
+
+/* line 5, ../scss/_base.scss */
 i {
   height: 100px;
   width: 100px;
   display: inline-block;
 }
 
-/* line 10, ../scss/_base.scss */
+/* line 13, ../scss/_base.scss */
 li {
   list-style: none;
   display: inline-block;
   padding: 10px;
 }
-/* line 14, ../scss/_base.scss */
+/* line 17, ../scss/_base.scss */
 li a {
   display: inline-block;
   width: 100px;
   height: 100px;
 }
-/* line 18, ../scss/_base.scss */
+/* line 21, ../scss/_base.scss */
 li a span {
   position: absolute;
   top: -9999em;
   left: -9999em;
+}
+
+/* line 29, ../scss/_base.scss */
+.home {
+  background: url("../img/background.jpg") center center no-repeat;
+  background-size: cover;
+  color: #09070d;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+/* line 38, ../scss/_base.scss */
+.home h1 {
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5px;
+}
+
+/* line 48, ../scss/_base.scss */
+.home h2 {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 25px 0;
+}
+
+/* line 57, ../scss/_base.scss */
+.home h3 {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Page Styles */
+/* line 64, ../scss/_base.scss */
+.container {
+  max-width: 960px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+/* line 70, ../scss/_base.scss */
+.container-top {
+  width: 940px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+/* line 76, ../scss/_base.scss */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer */
+/* line 84, ../scss/_base.scss */
+.bg-footer {
+  background: black;
+  color: #f0f2f2;
+  height: 50px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
